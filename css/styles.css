@@ -1,0 +1,189 @@
+body {
+  background: no-repeat top/100% url("images/bg-header-desktop.png");
+  color: #9fabb2;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: .9rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  color: #4c545d;
+}
+
+h2 {
+  font-weight: 400;
+  color: #4c545d;
+}
+
+h3 {
+  font-weight: 600;
+  color: #4c545d;
+}
+
+/***** section styles *****/
+.intro-section, .cta {
+  font-size: 1.2rem;
+  margin: 100px auto;
+  width: 50%;
+}
+
+.snippets-intro {
+  font-size: 1.2rem;
+  margin: 50px auto 80px;
+  width: 50%;
+}
+
+.computer-screen {
+  float: left;
+  margin-left: -40px;
+  margin-right: 100px;
+  width: 50%;
+}
+
+.snippets {
+  text-align: left;
+  padding-top: 80px;
+  width: 90%;
+}
+.snippets p {
+  margin-bottom: 40px;
+}
+
+.access-section {
+  clear: left;
+  padding-top: 100px;
+}
+
+.access-intro {
+  font-size: 1.2rem;
+  margin: 50px auto;
+  width: 50%;
+}
+
+.access-image {
+  filter: drop-shadow(1.0rem 1.0rem 3rem #9fabb2);
+}
+
+.workflow-intro {
+  font-size: 1.2rem;
+}
+
+.callout-group {
+  /* width: 90%; */
+
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+
+}
+
+.callout {
+  float: left;
+  padding: 10px 30px;
+  width: 22%;
+}
+
+.section-3 {
+  clear: left;
+  padding: 100px 0 60px;
+}
+
+.logos img {
+  height: 32px;
+  margin: 0 40px;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 30px;
+  position: relative;
+}
+
+.footer-links {
+  float: left;
+  line-height: 2;
+  margin-left: 80px;
+  text-align: left;
+}
+
+.footer-links a{
+  color: #4c545d;
+  display: block;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #26baa4;
+  text-decoration: none;
+}
+
+.footer-logo {
+  float: left;
+  width: 40px;
+}
+
+.social-group {
+  position: absolute;
+  right: 30px;
+}
+
+.social-group img {
+  margin: 0 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  clear: left;
+  padding-top: 30px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/***** button styles ****/
+.button-group {
+  margin: 40px auto;
+}
+
+.button-group a {
+  margin: 0 5px;
+}
+
+.btn-ios {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #26baa4;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  filter: drop-shadow(.2rem .3rem .3rem #70EFDC);
+}
+
+.btn-ios:hover {
+  background: #32d9c0;
+  text-decoration: none;
+}
+
+.btn-android {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 14px;
+  background: #6173ff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  filter: drop-shadow(.2rem .3rem .3rem #ADB7FC);
+}
+
+.btn-android:hover {
+  background: #7c8bfc;
+  text-decoration: none;
+}
